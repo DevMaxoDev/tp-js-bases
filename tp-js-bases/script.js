@@ -16,14 +16,14 @@ if (age < 13) {
 
 
 for (let i = 1; i <= 10; i++) {
-    console.log(`7 x ${i} = ${7 * i}`);
+    console.log("7 x " + i + " = " + (7 * i));
 }
 
 
-const saluer = (prenom) => `Bonjour, ${prenom} ! Comment vas-tu ?`;
-
-const message = saluer("Maxandre");
-console.log(message);
+const saluer = (prenom) => {
+    return "Bonjour, " + prenom + " ! Comment vas-tu ?";
+};
+console.log(saluer("Maxandre"));
 
 
 
