@@ -4,8 +4,9 @@ const nom = "PLESSIS";
 //let age = 17;
 //age = 18; // Cette valeur prend le dessus sur la valeur de la ligne 3
 
-let age = 17;
 
+
+let age = 17;
 if (age < 13) {
     console.log("Accès interdit aux moins de 13 ans.");
 } else if (age < 18) {
@@ -20,11 +21,11 @@ for (let i = 1; i <= 10; i++) {
 }
 
 
+
 const saluer = (prenom) => {
     return "Bonjour, " + prenom + " ! Comment vas-tu ?";
 };
 console.log(saluer("Maxandre"));
-
 
 
 
